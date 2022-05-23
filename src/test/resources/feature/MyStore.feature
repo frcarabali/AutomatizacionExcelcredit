@@ -14,9 +14,9 @@ Característica: Registro login y compra de arituclos automation pratice
     Y se registra el nuevo usuario y se valida que se realiza el login <nombre>
 
     Ejemplos: 
-      | correo                   | nombre  | apellido   | password        | dia  | mes | ano    | empresa       | company       | direccion      | city     | state    | postalcode | mobilephone  | alias    |
-      | "fcarabli@asxccredt.co"  | "fredi" | "carabali" | "Colombia.2022" | "22" | "5" | "2006" | "Excelcredit" | "Excelcredit" | "Box company " | "Bogota" | "Kansas" | "96412"    | "3115672420" | "junior" |
-      | "fcarabli@asxcacredt.co" | "fredi" | "carabali" | "Colombia.2022" | "22" | "5" | "2006" | "Excelcredit" | "Excelcredit" | "Box company " | "Bogota" | "Kansas" | "96412"    | "3115472420" | "juniol" |
+      | correo                          | nombre  | apellido   | password        | dia  | mes | ano    | empresa       | company       | direccion      | city     | state    | postalcode | mobilephone  | alias     |
+      | "fredicarabali@aexcelcredt.co"  | "fredi" | "carabali" | "Colombia.2022" | "22" | "5" | "2006" | "Excelcredit" | "Excelcredit" | "Box company " | "Bogota" | "Kansas" | "96412"    | "3208974520" | "junior"  |
+      | "fredicarabali@excelcredit.com" | "fredi" | "carabali" | "Colombia.2022" | "22" | "5" | "2006" | "Excelcredit" | "Excelcredit" | "Box company " | "Bogota" | "Kansas" | "96412"    | "3208974581" | "junitor" |
 
   @BusquedaProducto
   Esquema del escenario: Realizar una busqueda y anadir al carrito
@@ -38,8 +38,8 @@ Característica: Registro login y compra de arituclos automation pratice
 
     Ejemplos: 
       | Elemento | Producto                      | Productos |
-      | "short"  | "Faded Short Sleeve T-shirts" |         3 |
-      | "short"  | "Faded Short Sleeve T-shirts" |         3 |
+      | "short"  | "Faded Short Sleeve T-shirts" |         2 |
+      | "short"  | "Faded Short Sleeve T-shirts" |         2 |
 
   @Eliminarproducto
   Esquema del escenario: Anadir un producto al carrito y eliminarlo
